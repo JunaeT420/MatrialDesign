@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.junae.matrialdesign.MarqueeText">
+
+
+    <com.sunfusheng.marqueeview.MarqueeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        app:mvAnimDuration="500"
+        app:mvInterval="1500"
+        app:mvTextColor="@android:color/white"
+        app:mvTextSize="20sp"
+        app:mvSingleLine="true"
+        android:id="@+id/marquee"
+        ></com.sunfusheng.marqueeview.MarqueeView>
+</android.support.constraint.ConstraintLayout>
